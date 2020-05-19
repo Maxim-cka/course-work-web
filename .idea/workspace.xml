@@ -2,89 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef176309-f514-4a96-b168-e72653a405ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/defaultRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/requests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/css/normalize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/js/jquery-1.11.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/js/jquery.nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal Shelter - Doc/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animate.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dogs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Linearicons-Free.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Linearicons-Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Linearicons-Free.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Linearicons-Free.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Linearicons-Free.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery.DonutWidget.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/pages.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/banner-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/ads-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/blog-home-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/cat-widget1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/cat-widget2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/cat-widget3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/feature-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/feature-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/feature-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/feature-img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/feature-img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/next.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/post-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/post-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/pp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/pp2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/pp3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/pp4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/prev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/s-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blog/user-info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/c9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/call-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ct9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dg9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/disabled-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/disabled-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/g8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/primary-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/primary-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/success-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/elements/success-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/play-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pronas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/t1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/t2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/t4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/t5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/t6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/video-bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/parallax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vendor/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vendor/jquery-2.2.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-2.2.4.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bootstrap.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bootstrap/_alert.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bootstrap/_badge.scss" beforeDir="false" />
@@ -179,9 +228,6 @@
       <change beforePath="$PROJECT_DIR$/scss/theme/_pages.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/theme/_reset.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/theme/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/volunteer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zdaty.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,6 +251,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\makci\Downloads\Telegram Desktop\Курсова\Курсова" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -236,7 +287,8 @@
       <workItem from="1589616483067" duration="3865000" />
       <workItem from="1589731959556" duration="3241000" />
       <workItem from="1589805555427" duration="2962000" />
-      <workItem from="1589819923325" duration="155000" />
+      <workItem from="1589819923325" duration="971000" />
+      <workItem from="1589871125379" duration="1155000" />
     </task>
     <servers />
   </component>

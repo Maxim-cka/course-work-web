@@ -8,6 +8,12 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
+
+	<style>
+		.buttons > button {
+			margin-bottom: 1rem;
+		}
+	</style>
 </head>
 <body>
 	<header id="header">
@@ -17,7 +23,6 @@
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li class="menu-active"></li>
-
 					</ul>
 				</nav>
 			</div>
@@ -39,9 +44,33 @@
 			</div>
 		</div>
 	</section>
-	<!-- End banner Area -->
 
-	<!-- Start home-about Area -->
+	<section class="home-about-area">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-lg-12 home-about-right no-padding">
+					<h1>
+						Інформація
+					</h1>
+
+					<p class="buttons">
+						<button onclick="getAllTeachers()" class="btn primary-btn">Переглянути вчителів</button>
+						<button onclick="getTeachersWithSubjects()" class="btn primary-btn">Переглянути вчителів із предметами</button>
+						<button onclick="getAllRooms()" class="btn primary-btn">Переглянути кімнати</button>
+						<button onclick="getAllSchedule()" class="btn primary-btn">Переглянути розклад</button>
+						<button onclick="getAllCourse()" class="btn primary-btn">Переглянути курси</button>
+						<button onclick="getMediumCourse()" class="btn primary-btn">Курси середньої цінової категорії</button>
+						<button onclick="getAllSubject()" class="btn primary-btn">Переглянути всі предмети</button>
+						<button onclick="getAllLanguages()" class="btn primary-btn">Переглянути всі мови наших курсів</button>
+						<button onclick="getSubjectsWithTeacherNames()" class="btn primary-btn">Всі предмети та вчителі</button>
+						<button onclick="getAllStudents()" class="btn primary-btn">Перелік учнів</button>
+						<button onclick="getStudentsWithCourse()" class="btn primary-btn">Перелік учнів із курсами, на яких вони навчаються</button>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="home-about-area">
 		<div class="container-fluid">
 			<div class="row align-items-center">
@@ -63,9 +92,34 @@
 			</div>
 		</div>
 	</section>
-	<!-- End home-about Area -->
 
-	<!-- Start process Area -->
+	<section class="home-about-area">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-lg-6 home-about-left no-padding">
+					<img style="border-radius: 35px; padding: 5px;" src="https://static.boredpanda.com/blog/wp-content/uploads/2016/09/before-after-first-day-at-school-9-57c9777e49502__700.jpg" alt="">
+				</div>
+				<div class="col-lg-6 home-about-right no-padding">
+					<h1>
+						Ось цікаві факти про наші курси:D
+					</h1>
+
+					<p class="buttons">
+						<button onclick="getMaxPrice()" class="btn primary-btn">Максимальна ціна на курс</button>
+						<button onclick="getAvgPrice()" class="btn primary-btn">Середня ціна на курс</button>
+						<button onclick="getCountCourse()" class="btn primary-btn">Кількість доступних курсів</button>
+						<button onclick="getCoursesMoreAVG()" class="btn primary-btn">Курси із ціною, вище середньої</button>
+						<button onclick="getCoursesMaxPrice()" class="btn primary-btn">Курси із найвищою ціною</button>
+						<button onclick="getSubjectsTeacherWithMiddleSalary()" class="btn primary-btn">Всі предмети, вчителі яких мають середню зарплату</button>
+						<button onclick="getCountSubjectsByTeacher()" class="btn primary-btn">Кількість предметів нашого першого вчителя</button>
+						<button onclick="getAllByAgeAndSex()" class="btn primary-btn">Перелік учнів-хлопців віком до 5 років</button>
+						<button onclick="getNames()" class="btn primary-btn">Перелік унікальних імен учнів</button>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="process-area section-gap">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
@@ -79,24 +133,20 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
 					<div class="single-process">
-
-
-							<h4>
-								Вибрати курс
-							</h4>
+						<h4>
+							Вибрати курс
+						</h4>
 
 						<p>
-							Детальніше про курси можете дізнатися в відповідному ралзділі.
+							Детальніше про курси можете дізнатися в відповідному розділі.
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-process">
-
-
-							<h4>
-								Заповнити необхідні документи
-							</h4>
+						<h4>
+							Заповнити необхідні документи
+						</h4>
 
 						<p>
 							Заповнити документи, та відправити нам на електронну пошту.
@@ -105,12 +155,9 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-process">
-
-
-							<h4>
-								Внести оплату
-							</h4>
-
+						<h4>
+							Внести оплату
+						</h4>
 						<p>
 							Внести оплату за курс на певний термін, на якому буде навчатися Ваша дитина.
 						</p>
@@ -118,12 +165,9 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-process">
-
-
-							<h4>
-								Готово!
-							</h4>
-
+						<h4>
+							Готово!
+						</h4>
 						<p>
 							Тепер Ваша дитина може отримати безліч позитивних емоцій, а головне нових та корисних знань!
 						</p>
@@ -132,14 +176,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- End process Area -->
 
-
-	<!-- Start testomial Area -->
-
-
-
-	<!-- start footer Area -->
 	<footer class="footer-area">
 		<div class="container">
 			<div class="row pt-120 pb-80">
@@ -157,7 +194,6 @@
 						<div class="row">
 							<ul class="col footer-nav">
 								<li><a href="#">Головна</a></li>
-
 							</ul>
 						</div>
 					</div>
@@ -204,13 +240,9 @@
 				</div>
 			</div>
 		</div>
+	</footer>
 
-
-	<script src="js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-	<script src="js/easing.min.js"></script>
+	<script src="js/jquery-2.2.4.min.js"></script>
 	<script src="js/hoverIntent.js"></script>
 	<script src="js/superfish.min.js"></script>
 	<script src="js/jquery.ajaxchimp.min.js"></script>
@@ -218,5 +250,9 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/mail-script.js"></script>
 	<script src="js/main.js"></script>
+
+	<script src="scripts/info.js"></script>
+	<script src="scripts/defaultRequest.js"></script>
+	<script src="scripts/requests.js"></script>
 </body>
 </html>
